@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Quiz App</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/a94f335be8.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="flex">
+    <!-- start button -->
+    <div class="start_box flex active">
+        <div class="start_title"><h1>Are You Ready <br> for Our Challenge ?</h1></div>
+        <div class="start_button"><button>Start Quiz</button></div>
+    </div>
+
+    <!-- input name-->
+    <div class="input_box">
+        <div class="input_title">
+            <span>Please tell me your name</span>
+        </div>
+        <div class="input_content">
+            <p>please input your name to continue</p>
+            <input type="text" name="name" id="name" placeholder="input your name here . . .">
+            <div class="buttons">
+                <button class="cancel">Cancel</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- quiz topic -->
+    <div class="topic_box ">
+        <div class="topic_title">
+            <p>Hello <span>User</span>, <br> Please choose quiz topic</p>
+        </div>
+        <div class="topic_list">
+            <!-- <div class="list" name="math"><span>MATHEMATIC</span></div>
+            <div class="list" name="programing"><span>PROGRAMMING</span></div>
+            <div class="list" name="language"><span>LANGUAGE</span></div>
+            <div class="list" name="biology"><span>BIOLOGY</span></div> -->
+        </div>
+    </div>
+
+    <!-- ruler info -->
+    <div class="info_box">
+        <div class="info_title">
+            <!-- <p>Okay <span>User</span>, You Choose <span>Topic</span><br> This is Some Rules of This Quiz</p> -->
+        </div>
+        <div class="info_list">
+            <p class="info">1. You will have only <span>30 seconds</span> to answer all questions.</p>
+            <p class="info">2. Once you select your answer, you can't reselect.</p>
+            <p class="info">3. You can't exit from the Quiz while you're playing.</p>
+            <p class="info">4. You'll get points on the basis of your correct answer.</p>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <!-- quiz box header -->
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_text">Time left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="timer_line"></div>
+        </header>
+
+        <!-- quiz box body -->
+        <section>
+            <div class="que_text">
+                <!-- <span>What does HTML stand for?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Markup Language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Multiple Language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Tool Multi Language</span>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- quiz box footer -->
+        <footer>
+            <div class="total_que">
+                <span><p class="number">2</p>Of<p class="total_quiz">5</p>Questions</span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- result box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-trophy"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <p>and sorry, <br>You got only <span>2</span> out of <span>5</span></p>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    
+    <!-- script -->
+    <script src="assets/dataBase.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

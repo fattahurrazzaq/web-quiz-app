@@ -1,0 +1,232 @@
+{
+    "topic": [
+        "mathematic",
+        "programming",
+        "english",
+        "biology"
+    ],
+    "questions": [
+        {
+            "name": "mathematic",
+            "quiz": [
+                {
+                    "numb": 1,
+                    "question": "(5 + 5) - (30 / 2 * 12 + 4 - 2) = ?",
+                    "answer": "-172",
+                    "options": [
+                        "-172",
+                        "-200",
+                        "-230",
+                        "-150"
+                    ]  
+                },{
+                    "numb": 2,
+                    "question": "1/2 * 2/8 + 1/8 - 1/2 = ?",
+                    "answer": "-1/4",
+                    "options": [
+                        "-4/16",
+                        "-4/8",
+                        "-1/4",
+                        "1/4"
+                    ]
+                },{
+                    "numb": 3,
+                    "question": "2 3 8 12 32 48 ... ...",
+                    "answer": "128 192",
+                    "options": [
+                        "52 64",
+                        "8 12",
+                        "122 184",
+                        "128 192"
+                    ]
+                },{
+                    "numb": 4,
+                    "question": "1/0 = ?",
+                    "answer": "~",
+                    "options": [
+                        "1",
+                        "0",
+                        "~",
+                        "-1"
+                    ]
+                },{
+                    "numb": 5,
+                    "question": "5 + 5 * 5 + 5 = ?",
+                    "answer": "35",
+                    "options": [
+                        "35",
+                        "55",
+                        "75",
+                        "100"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "programming",
+            "quiz": [
+                {
+                    "numb": 1,
+                    "question": "What does HTML stand for?",
+                    "answer": "Hyper Text Markup Language",
+                    "options": [
+                        "Hyper Text Preprocessor",
+                        "Hyper Text Markup Language",
+                        "Hyper Text Multiple Language",
+                        "Hyper Tool Multi Language"
+                    ]  
+                },{
+                    "numb": 2,
+                    "question": "What does CSS stand for?",
+                    "answer": "Cascading Style Sheet",
+                    "options": [
+                        "Common Style Sheet",
+                        "Colorfull Style Sheetage",
+                        "Computer Style Sheet",
+                        "Cascading Style Sheet"
+                    ]
+                },{
+                    "numb": 3,
+                    "question": "What does PHP stand for?",
+                    "answer": "Hypertext Preprocessor",
+                    "options": [
+                        "Hypertext Preprocessor",
+                        "Hypertext Programming",
+                        "Hypertext Preprogramming",
+                        "Hometext Preprocessor"
+                    ]
+                },{
+                    "numb": 4,
+                    "question": "What does XML stand for?",
+                    "answer": "eXtensible Markup Language",
+                    "options": [
+                        "eXtensible Markup Language",
+                        "eXecutable Multiple Language",
+                        "eXtra Multi-Program Language",
+                        "eXamine Multiple Language"
+                    ]
+                },{
+                    "numb": 5,
+                    "question": "What does SQL stand for?",
+                    "answer": "Structured Query Language",
+                    "options": [
+                        "Stylish Question Language",
+                        "Stylesheet Query Language",
+                        "Statement Query Language",
+                        "Structured Query Language"
+                    ]
+                }
+            ]
+        },{
+            "name": "english",
+            "quiz": [
+                {
+                    "numb": 1,
+                    "question": "synonym of 'Stupid' ...",
+                    "answer": "Dumb",
+                    "options": [
+                        "Dumb",
+                        "Brilliant",
+                        "Fast",
+                        "Intelligent"
+                    ]  
+                },{
+                    "numb": 2,
+                    "question": "synonym of 'Inexpensive' ...",
+                    "answer": "Cheap",
+                    "options": [
+                        "Overpriced",
+                        "Expensive",
+                        "Cheap",
+                        "Good"
+                    ]
+                },{
+                    "numb": 3,
+                    "question": "synonym of 'Terrible' ...",
+                    "answer": "Awful",
+                    "options": [
+                        "Fantastic",
+                        "Great",
+                        "Good",
+                        "Awful"
+                    ]
+                },{
+                    "numb": 4,
+                    "question": "antonym of 'Tall' ...",
+                    "answer": "Short",
+                    "options": [
+                        "Long",
+                        "Short",
+                        "Small",
+                        "Big"
+                    ]
+                },{
+                    "numb": 5,
+                    "question": "antonym of 'Foolish' ...",
+                    "answer": "Brainy",
+                    "options": [
+                        "Wise",
+                        "Brainy",
+                        "Idiotic",
+                        "Dumb"
+                    ]
+                }
+            ]
+        },{
+            "name": "biology",
+            "quiz": [
+                {
+                    "numb": 1,
+                    "question": "Hinge joints, ball joints, swivel joints, and saddle joints are types of joints ...",
+                    "answer": "Diarthrosis",
+                    "options": [
+                        "Amphiarthrosis",
+                        "Diarthrosis",
+                        "Syndesmosis",
+                        "Synchondrosis"
+                    ]  
+                },{
+                    "numb": 2,
+                    "question": "Contraction of the biceps produces movement ...",
+                    "answer": "Flexion",
+                    "options": [
+                        "Abduction",
+                        "Rotation",
+                        "Extension",
+                        "Flexion"
+                    ]
+                },{
+                    "numb": 3,
+                    "question": "The blood group that has no agglutinins is ...",
+                    "answer": "AB",
+                    "options": [
+                        "AB",
+                        "A & B",
+                        "O",
+                        "A"
+                    ]
+                },{
+                    "numb": 4,
+                    "question": "The tissue that functions to wrap (support) the organs of the body is....",
+                    "answer": "Connective Tissue",
+                    "options": [
+                        "Fat Tissue",
+                        "Epithelial Tissue",
+                        "Connective Tissue",
+                        "Muscle Tissue"
+                    ]
+                },{
+                    "numb": 5,
+                    "question": "The tendons in the foot are dense connective tissue that connects the ...",
+                    "answer": "Muscle with Bone",
+                    "options": [
+                        "Muscle with Muscle",
+                        "Muscle with Bone",
+                        "Bones with Nerves",
+                        "Muscle with Nerves"
+                    ]
+                }
+            ]
+        }
+    ]
+}        
